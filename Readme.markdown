@@ -21,6 +21,10 @@ Then import all files so compiler can see them: `#import <GBCli/GBCli.h>`.
 
 If you prefer to include sources directly, just copy all .h and .m files from `GBCli/src` subfolder to your Xcode project and import `GBCli.h` header (in this case you'll probably need to use `#import "GBCli.h"`).
 
+####Carthage (iOS 8+, OS X 10.9+)
+You can use [Carthage](https://github.com/Carthage/Carthage) to install `GBCli` by adding it to your `Cartfile`:
+```
+github "tomaz/GBCli"
 
 Parsing command line arguments
 ------------------------------
